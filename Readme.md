@@ -82,6 +82,8 @@ plt.title('The Elbow Point Graph')
 plt.xlabel('Number of Clusters')
 plt.ylabel('WCSS')
 plt.show()
+![Elbow_Finding](https://github.com/user-attachments/assets/c7342bb5-2b90-451f-92a4-287d924064e1)
+
 
 # Applying K-Means
 kmeans = KMeans(n_clusters=5, init='k-means++', random_state=0)
@@ -101,6 +103,7 @@ plt.xlabel('Annual Income')
 plt.ylabel('Spending Score')
 plt.legend()
 plt.show()
+![Graph_file](https://github.com/user-attachments/assets/b382a5c1-f0d7-435b-bf4a-90ee75df5e45)
 
 🎯 Key Insights
 
@@ -115,8 +118,6 @@ Cluster Analysis helps in personalized marketing, better customer service, and r
 🚀 Future Enhancements
 
 Feature Expansion: Include more features like Age, Gender, Purchase Frequency.
-
-Deep Learning: Use advanced clustering techniques for better accuracy.
 
 Real-Time Segmentation: Implement customer behavior tracking for dynamic segmentation.
 
